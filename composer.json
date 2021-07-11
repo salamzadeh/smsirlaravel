@@ -1,0 +1,22 @@
+{
+    "name": "salamzadeh/smsirlaravel",
+    "description": "Official Sms.ir Laravel Package",
+    "keywords": ["laravel", "sms", "پیامک", "اس ام اس", "sendsms", "notifacation", "sms.ir"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sasan Salamzadeh",
+            "email": "me@salamzadeh.net"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Salamzadeh\\Sms\\": "src/"
+        }
+    },
+    "require": {
+        "guzzlehttp/guzzle": "7.3.0",
+        "laminas/laminas-diactoros" : "2.*",
+        "symfony/psr-http-message-bridge" : "2.*"
+    }
+}
